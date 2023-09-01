@@ -251,3 +251,33 @@ footer {
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+
+    .links ul {
+        flex-direction: column;
+    }
+
+    .links li {
+        margin: 5px 0;
+    }
+
+    .s-container {
+        display: block;
+    }
+
+    .right-links {
+        display: block;
+    }
+
+    .right-links .profile {
+        margin-right: 10px;
+    }
+}
